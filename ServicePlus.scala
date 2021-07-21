@@ -1,6 +1,6 @@
 class Case1(id: Int, val description: String, val kind: Option[Int])
 
-object Solution {
+object ServicePlus {
   def main(args: Array[String]): Unit = {
     val case1 = new Case1(1, "some description", Some(3))
     val result1 = solve1(case1)
